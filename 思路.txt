@@ -1,0 +1,19 @@
+"""
+    情景需求：
+                学校     校区  年份 考季 四六级  考场    座位
+    样本        37051     0   09   2      2      001     01
+                              16   2      2
+    测试样本   21261     1    16   2      1      053      15
+    注：规定每个考场三十人
+    预计请求次数  30000= 30*10*10*10
+    数据源(按响应速度排序)：
+        http://www.chsi.com.cn/cet/
+        http://www.chsi.com.cn/cet/query?zkzh=212611162105315&xm=%E5%BC%A0%E7%AB%8B%E5%BC%BA
+
+        http://cet.99sushe.com/
+
+        http://chaxun.neea.edu.cn/cet/query_cet.html
+
+    代码需求：找到姓名匹配的后五位数字
+
+"""
